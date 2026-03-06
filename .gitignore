@@ -1,0 +1,21 @@
+# Python / Environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Zugangsdaten & Konfigurationen (SEHR WICHTIG)
+config/google_ads.yaml
+config/customers.yaml
+config/base_config.json
+
+# Falls doch lokal Daten gespeichert werden
+data/
+*.csv

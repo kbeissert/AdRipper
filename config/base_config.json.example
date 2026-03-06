@@ -1,0 +1,7 @@
+{
+  "base_output_path": "~/Analysen",
+  "log_level": "INFO",
+  "default_date_range": "LAST_30_DAYS",
+  "locale": "de_DE",
+  "csv_separator": ";"
+}

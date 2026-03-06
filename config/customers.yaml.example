@@ -1,0 +1,10 @@
+# Beispielkonfiguration für Kunden
+kunde-1:
+  customer_id: 123-456-7890
+  folder: kunde-1
+  enabled: true
+  reports:
+    - campaigns
+    - keywords
+    - ads
+    - summary
