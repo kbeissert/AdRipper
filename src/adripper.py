@@ -162,8 +162,8 @@ class AdRipperEngine:
         while retries < max_retries:
             try:
                 request = self.client.get_type("SearchGoogleAdsRequest")
-                request.customer_id = customer_id
-                request.query = query
+                request.customer_id = customer_id  # type: ignore
+                request.query = query  # type: ignore
 
                 rows = []
                 response = self.service.search(request=request)
