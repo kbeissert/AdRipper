@@ -16,8 +16,8 @@ from typing import Any, Dict, Optional
 
 import pandas as pd
 import yaml
-from google.ads.googleads.client import GoogleAdsClient
-from google.ads.googleads.errors import GoogleAdsException
+from google.ads.googleads.client import GoogleAdsClient  # type: ignore
+from google.ads.googleads.errors import GoogleAdsException  # type: ignore
 
 # --- KONSTANTEN & ENUMS ---
 BASE_DIR = Path(__file__).resolve().parent.parent
